@@ -84,7 +84,7 @@ class EncodingDB:
         if mac:
             mac2unicode[mac] = c
         if win:
-            win2unicode[win] = c
+            win2unicode[win] = str(chr(win));
         if pdf:
             pdf2unicode[pdf] = c
 
